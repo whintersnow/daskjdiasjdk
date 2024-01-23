@@ -11,7 +11,7 @@ logging.basicConfig(
 
 def start(update, context):
     update.message.reply_text(
-        'Welcome to the OSINT bot! Send /search_ip <IP_address> to search for information about an IP address.'
+        'Welcome to the OSINT bot! Send /search_ip <IP_address> to search for information about an IP address. Developer : @asusmonik'
     )
 
 
